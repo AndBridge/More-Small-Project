@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>car</title>
+		<script src="https://cdn.bootcss.com/html5media/1.1.8/html5media.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				margin: 0px;
+			}
+			.bor{
+				width: 100%;
+				height: 20px;
+				box-sizing: border-box;
+				background-color: #176498;
+			}
+			.header{
+				width: 100%;
+				height: 90px;
+				box-sizing: border-box;
+				margin-top: 5px;
+			}
+			.header img{
+				width: 100%;
+				height: 100%;
+				border-top: 2px solid white;
+				box-sizing: border-box;
+			}
+			.main{
+				width: 100%;
+				box-sizing: border-box;
+				
+			}
+			 .contLeft{
+				width: 16%;
+				height: 660px;
+				
+				box-sizing: border-box;
+				text-align: center;
+				overflow: auto;
+			}
+			 .Vlist{
+				width: 80%;
+				height: 25px;
+				line-height: 25px;
+				border: 1px solid silver;
+				background: white;
+				box-sizing: border-box;
+				text-align: center;
+				font-weight: bold;
+				border-radius: 15px;
+				margin-top: 20px;
+				color: black;
+				box-shadow: silver 0px 0px 0.5px 0.5px; 
+				margin-bottom: 20px;
+			}
+			.navList{
+				list-style: none;
+			}
+			.navList li{
+				margin-top: 10px;
+			}
+			.navList a{
+				text-decoration: none;
+			}
+			.contMain{
+				width: 68%;
+				height: 670px;
+				margin: 0px auto;
+				text-align: center;
+				position: absolute;
+				top: 115px;
+				left: 16%;
+				box-sizing: border-box;
+			}
+			.Video{
+				width: 100%;
+				height: 100%;
+				box-sizing: border-box;
+				text-align: center;
+				border: 1px solid red;
+				
+			}
+			.contRight{
+				width: 15.8%;
+				float: right;
+				
+				box-sizing: border-box;
+				position: absolute;
+				top: 115px;
+				right: 0px;
+				text-align: center;
+				
+			}
+			
+			.contRight fieldset{
+				text-align: center;
+				margin-top: 30px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="header">
+			<img src="img/banner.png" >
+		</div>
+		<div class="bor"></div>
+		<!-- main -->
+		<div class="main">
+			
+		
+			<!--contLeft  -->
+			<div class="contLeft">
+				<input type="text" class="Vlist" disabled="disabled" name="" id="" value="视频列表" />
+				<ul class="navList">
+					<li><a href="carManage.1.html">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+					<li><a href="">驻车制动【初检】</a></li>
+				</ul>
+			
+			</div>
+			<!--contRight  -->
+			<div class="contMain">
+			
+			 <object type='application/x-vlc-plugin' class="Video" id='vlc' events='True'  pluginspage="http://www.videolan.org" codebase="http://downloads.videolan.org/pub/videolan/vlc-webplugins/2.0.6/npapi-vlc-2.0.6.tar.xz">
+			                  <param name='mrl' value='img/33080016191011002_1_B0.mp4' />
+			                  <param name='volume' value='50' />
+			                  <param name='autoplay' value='true' />
+			                  <param name="toolbar" value="true" />
+			                  <param name='loop' value='true' />
+			                  <param name='fullscreen' value='true' />
+			              </object>
+	
+			<!-- <video id="video" class="projekktor" autoplay="autoplay" width="300" preload="metadata">  
+			      <source src="http:172.24.9.100" />
+			            Your browser doesn't appear to support the HTML5 <code>&lt;video&gt;</code> element.  
+			    </video> -->
+		<!-- 	<video class="Video" src="img/7723%20史诗幻想预告片.mp4" autoplay="autoplay" controls="controls">
+			您的浏览器不支持 video 标签。
+		 <source src="img/7723%20史诗幻想预告片.mp4" type="video/mp4">
+			</video> -->
+			
+			
+			
+			</div>
+			<div class="contRight">
+				 <fieldset class="rig">
+				    <legend>检验流水号</legend>
+				    <input type="text" />
+				  </fieldset>
+				  <fieldset class="rig">
+				     <legend>安检机构</legend>
+				     <input type="text" />
+				   </fieldset>
+					<fieldset class="rig">
+					   <legend>号牌种类</legend>
+					   <input type="text" />
+					 </fieldset>
+					 <fieldset class="rig">
+					    <legend>号牌号码</legend>
+					    <input type="text" />
+					  </fieldset>
+			</div>
+		</div>
+	</body>
+</html>
